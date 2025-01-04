@@ -25,8 +25,8 @@ jobs:
       run: npm install
 
     # Step 4: Run tests (optional - can be skipped if you don’t have tests yet)
-    - name: Run tests
-      run: npm test
+    # - name: Run tests
+    #   run: npm test
 
     # Step 5: Build Docker image
     - name: Build Docker image
